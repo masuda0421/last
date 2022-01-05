@@ -1,0 +1,30 @@
+{
+    "name": "last",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "pxt-circuit-playground-character-icons": "github:adafruit/Circuit-Playground-Character-Icons#v0.0.8",
+        "robotbit": "github:KittenBot/meow-robotbit#v0.3.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.7.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
