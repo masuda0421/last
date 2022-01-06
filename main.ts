@@ -57,6 +57,12 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile6`, function (sprite, location) {
+    if (controller.A.isPressed()) {
+        tiles.setTilemap(tilemap`aisle`)
+        mySprite.setPosition(140, 250)
+    }
+})
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
@@ -178,6 +184,9 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile61`, function (sprite, location) {
+    tiles.setTilemap(tilemap`8entryway`)
+})
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
@@ -237,11 +246,6 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
-scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
-    if (controller.A.isPressed()) {
-        tiles.setTilemap(tilemap`レベル7`)
-    }
-})
 let name = ""
 let mySprite: Sprite = null
 mySprite = sprites.create(assets.image`man`, SpriteKind.Player)
@@ -250,6 +254,6 @@ controller.moveSprite(mySprite, 100, 100)
 tiles.setTilemap(tilemap`home`)
 scene.cameraFollowSprite(mySprite)
 if (!(blockSettings.exists("name"))) {
-    name = game.askForString("You are name ?")
+    name = game.askForString("What's your name?")
     game.showLongText("" + name + "やあ", DialogLayout.Bottom)
 }
