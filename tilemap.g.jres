@@ -364,12 +364,6 @@
         "tilemapTile": true,
         "displayName": "myTile32"
     },
-    "tile8": {
-        "data": "hwQQABAAAAD//////////8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile6"
-    },
     "tile11": {
         "data": "hwQQABAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMz//////////w==",
         "mimeType": "image/x-mkcd-f4",
@@ -478,6 +472,12 @@
         "tilemapTile": true,
         "displayName": "myTile43"
     },
+    "tile8": {
+        "data": "hwQQABAAAAD//////////8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMz8zPz/zMzMzE/PT1XPzMz8RM9PVc/MzPxEz09E9czMX0X0T1X0zMxfRUVEVfTMzPxVVURUz8zMzP9VRPXMzMzMzE9Ez8zMzMzM/P/MzMzMzMzMzMzMzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile6"
+    },
     "レベル2": {
         "id": "レベル2",
         "mimeType": "application/mkcd-tilemap",
@@ -572,7 +572,7 @@
     "レベル1": {
         "id": "レベル1",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwOTAwMGIwMDI5MmIyOTI5MmMxMDEwMTAxMDFmMmExZDFlMTAwOTBlMGExMDE5MjAxNDE4MTAwYzBkMGIxMDI1MjIyMzI0MTAxMDEwMTAxMjFhMjExYzFiMDIwMjAyMTUxMzI2MDMzNDAyMDIwMjI3MTYxNzAxMDYwZjAyMDIwMjMzMDUxMTI4MDYwMjAyMDgyNzMyMzEzMDExMDQwNzA3MDcwNzJmMmUyZDAwMDEwMTAxMDAwMDAwMDAwMDAwMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA=",
+        "data": "MTAwOTAwMGIwMDI5MmIyOTI5MmMxMDEwMTAxMDFmMmExZDFlMTAwOTBlMGExMDE5MjAxNDE4MTAwYzBkMGIxMDI1MjIyMzI0MTAxMDEwMTAxMjFhMjExYzFiMDIwMjAyMTUxMzI2MDMzNDAyMDIwMjI3MTYxNzAxMDYwZjAyMDIwMjMzMDUxMTI4MDYwMjAyMDgyNzMyMzEzMDExMDQwNzA3MDcwNzJmMmUyZDAwMDEwMTAxMDAwMDAwMDAwMDAwMDEwMTAxMDAwMDAwMDAwMDIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwMDIwMDIwMDAwMDAyMjAwMDAwMDAwMjAwMDAwMjAyMjAwMDAwMDIyMjIwMDIwMjIyMjAyMDAyMjIyMDI=",
         "tileset": [
             "myTiles.transparency16",
             "myTiles.tile6",
