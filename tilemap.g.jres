@@ -256,6 +256,30 @@
         "tilemapTile": true,
         "displayName": "myTile12"
     },
+    "tile43": {
+        "data": "hwQQABAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzP/MzMzMzMz8/czMzMzMzPy9z8zMzMzMv937zMzMzMy/2/vMzMzM/Lvb+8zMzPzb3bv7zMzM39vdy8/MzMzfvd37zMzMzN/dvc/MzMzM/P//zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile41"
+    },
+    "tile44": {
+        "data": "hwQQABAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM///PzMzMzPzb3f3MzMzMv93b/czMzPy83b39zMzMv7vdvc/MzMy/vbvPzMzMzL+9+8zMzMzMv937zMzMzMz828/MzMzMzMzfz8zMzMzMzP/MzMzMzMzMzMzMzMzMzMzMzMzMzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile42"
+    },
+    "tile45": {
+        "data": "hwQQABAAAAD//////////+/u7u7u7u7u7+7u///s7u7v7v67y8/u7u///7/Lz+7u/7u7/MvP7u7/u8v8y8/u7v+7y/zMz+7u/7vL/MzP7u7/u8v8y8/u7v+7y/zLz+7u/7u7/P/s7u7v///v7u7u7u/u7u7u7u7u7+7u7u7u7u7//////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile43"
+    },
+    "tile47": {
+        "data": "hwQQABAAAAAREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREQ==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile45"
+    },
     "レベル2": {
         "id": "レベル2",
         "mimeType": "application/mkcd-tilemap",
@@ -304,7 +328,7 @@
     "レベル1": {
         "id": "レベル1",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAwOTAwMGIwMDIxMWYxZjIwMTIxMjEyMTIxMjFiMjIxNjFhMTIwYjEwMGMxMjI4MjQyNTI2MTIwZTBmMGQxMjFjMjMxZTFkMTIxMjEyMTIxNDI5MDMwODA4MDgwODA4MTcxNTAxMDcwMjAyMDIwMjAyMTgxOTAxMDcxMTAyMDIwMjAyMDYxMzAxMDcwMjAyMDIwMjBhMDYwMTAxMDQwOTA5MDkwOTA5MDUwMTAwMDEwMTAxMDAwMDAwMDAwMDAwMDEwMTAxMDAwMDAwMDAwMDIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjAwMDAwMDIwMDIwMDAwMDAyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjAwMDIwMjIyMjAyMDAyMjIyMDI=",
+        "data": "MTAwOTAwMGIwMDIxMWYxZjIwMTIxMjEyMTIxMjFiMjIxNjFhMTIwYjEwMGMxMjI3MjQyNTI2MTIwZTBmMGQxMjFjMjMxZTFkMTIxMjEyMTIxNDI4MDMwODA4MDgwODA4MTcxNTAxMDcyOTJhMDIwMjI5MTgxOTAxMDcxMTAyMDIwMjAyMDYxMzJiMDcwMjAyMDIyOTBhMDYwMTEzMDQwOTA5MDkwOTA5MDUwMTAwMDEwMTAxMDAwMDAwMDAwMDAwMDEwMTAxMDAwMDAwMDAwMDIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjAwMDAwMDIwMDIwMDAwMDAyMjAwMDAwMDAwMjAwMDAwMDAwMDAyMDAwMDAwMjAwMDIwMjIyMjAyMDAyMjIyMDI=",
         "tileset": [
             "myTiles.transparency16",
             "myTiles.tile6",
@@ -345,11 +369,25 @@
             "myTiles.tile39",
             "myTiles.tile40",
             "myTiles.tile41",
-            "myTiles.tile11",
             "myTiles.tile22",
-            "myTiles.tile42"
+            "myTiles.tile42",
+            "myTiles.tile43",
+            "myTiles.tile44",
+            "myTiles.tile45"
         ],
         "displayName": "home"
+    },
+    "レベル7": {
+        "id": "レベル7",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTEwMDAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDAwMDAwMDIwMjAyMDIwMjAyMDIwMjAwMDAwMDAwMDAwMDAwMDEwMTAxMDEwMjAyMDIwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAxMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxMDEwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxMDEwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAxMDEwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAxMDEwMTAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAxMDEwMTAxMDEwMTAxMDAwMDAwMDAwMDAwMDEwMTAxMDEwMTAxMDEwMTAxMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "myTiles.tile7",
+            "myTiles.tile47",
+            "sprites.dungeon.floorDark2"
+        ],
+        "displayName": "レベル7"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
