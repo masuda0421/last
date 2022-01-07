@@ -1,10 +1,9 @@
 {
-    "name": "last - Copy",
+    "name": "last1 - Copy",
     "description": "",
     "dependencies": {
         "device": "*",
         "robotbit": "github:KittenBot/meow-robotbit#v0.3.3",
-        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
     },
     "files": [
