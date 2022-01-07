@@ -247,6 +247,9 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     true
     )
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
+    tiles.setTilemap(tilemap`lunch`)
+})
 let mySprite: Sprite = null
 mySprite = sprites.create(assets.image`man`, SpriteKind.Player)
 mySprite.setPosition(70, 88)

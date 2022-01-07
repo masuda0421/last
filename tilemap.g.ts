@@ -141,10 +141,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile97 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile98 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
-    export const tile99 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile100 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile101 = image.ofBuffer(hex``);
@@ -221,8 +217,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile23 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile111 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile112 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile115 = image.ofBuffer(hex``);
@@ -247,10 +241,6 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile116 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile109 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
-    export const tile110 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile125 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile126 = image.ofBuffer(hex``);
@@ -262,6 +252,70 @@ namespace myTiles {
     export const tile129 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile130 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile131 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile132 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile133 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile110 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile109 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile111 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile134 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile135 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile136 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile137 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile138 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile139 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile140 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile141 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile142 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile143 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile144 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile145 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile146 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile147 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile149 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile150 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile151 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile152 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile155 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile157 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile158 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile159 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile162 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile163 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile164 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile160 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -416,29 +470,27 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
-            case "entryway":
-            case "レベル8":return tiles.createTilemap(hex`21001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a1a1a1a1a00000000000000000000000000000000000000000000000000000000251a1a1a2500000000000000000000000000000000000000000000000000000000051917180500000000000000000000000000000000000000000000000000000000011415160100000000000000000000000000000000000000000000000000000000010106010500000000000000000000000000000000001a2a2b1a1a1a231a1a1a1a05010401011a1a1a1a23231a1a1a1a1a1a1a00000000252829251a2527251b1e1d01010101062d1a2e252224252d1a2e251b1c00000000011213060401260101010101040901011f2120011416041f2120010101000000000406050101050101060501010f110e01010401050101010101010501040000000005010101050104010101010a1110110b0101010101050104010101010100000000012c042f01012c012f0101010c110d012c012f01052c01012f01012c2f00000000061f212004011f2120060104010806011f212001061f21212001041f20000000000000000000000000000000010101010100000000000000000000000000000000000000000000000000000000010501040100000000000000000000000000000000000000000000000000000000020702020700000000000000000000000000000000000000000000000000000000070203030200000000000000000000000000000000000000000000000000000000001a1a1a00000000000000000000000000000000`, img`
-222222222222222222222222222222222
-222222222222222222222222222222222
-222222222222222222222222222222222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-22......2.........222....222...22
-22.............................22
-22.............................22
-22.............................22
-22.222..222.......222..2222..2222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-2222222222222.....222222222222222
-222222222222222222222222222222222
-`, [myTiles.transparency16,myTiles.tile14,myTiles.tile79,myTiles.tile82,myTiles.tile83,myTiles.tile84,myTiles.tile85,myTiles.tile86,myTiles.tile87,myTiles.tile88,myTiles.tile89,myTiles.tile91,myTiles.tile92,myTiles.tile93,myTiles.tile94,myTiles.tile95,myTiles.tile96,myTiles.tile97,myTiles.tile98,myTiles.tile99,myTiles.tile100,myTiles.tile102,myTiles.tile101,myTiles.tile103,myTiles.tile104,myTiles.tile105,myTiles.tile49,myTiles.tile50,myTiles.tile106,myTiles.tile107,myTiles.tile108,myTiles.tile109,myTiles.tile110,myTiles.tile111,myTiles.tile112,myTiles.tile113,myTiles.tile115,myTiles.tile116,myTiles.tile114,myTiles.tile117,myTiles.tile118,myTiles.tile119,myTiles.tile120,myTiles.tile121,myTiles.tile125,myTiles.tile126,myTiles.tile127,myTiles.tile128], TileScale.Sixteen);
+            case "レベル11":
+            case "レベル11":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000020202020202000000000002020202020002020200020000000000000001000202010202020200000000000000010002020202020201000000000000000100020202020202010000000000000001000102020202020200000000000000010000020202020100000000000000000100000201020000000000000000000000010200000200000000000000000000000102020202010100000000000000000000010000000101010000000000000000000101010100000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile131,myTiles.tile129], TileScale.Sixteen);
             case "entryway-1":
-            case "レベル10":return tiles.createTilemap(hex`21001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a1a1a1a1a00000000000000000000000000000000000000000000000000000000251a1a1a2500000000000000000000000000000000000000000000000000000000051917180500000000000000000000000000000000000000000000000000000000011416150100000000000000000000000000000000000000000000000000000000010106010500000000000000000000000000000000001a28291a1a1a1f1a1a1a1a05010401011a1a1a1a1f1f1a1a1a1a1a1a1a00000000252627251a2524251b1e1d01010101062b1a2c252324252b1a2c251b1c00000000011213060401060101010101040a010121222001141504212220010101000000000406050101050101060501010f110e0101040105010101010101050104000000000501010105010401010101081110110b0101010101050104010101010100000000012a042d01012a012d0101010c110d012a012d01052a01012d01012a2d000000000621222004012122200601040109060121222001062122222001042120000000000000000000000000000000010101010100000000000000000000000000000000000000000000000000000000010501040100000000000000000000000000000000000000000000000000000000020702020700000000000000000000000000000000000000000000000000000000070203030200000000000000000000000000000000000000000000000000000000001a1a1a00000000000000000000000000000000`, img`
+            case "レベル10":return tiles.createTilemap(hex`2100120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000181818181800000000000000000000000000000000000000000000000000000000231818182300000000000000000000000000000000000000000000000000000000051715160500000000000000000000000000000000000000000000000000000000011214130100000000000000000000000000000000000000000000000000000000010106010500000000000000000000000000000000001826271818181d181818180501040101181818181d1d18181818181818000000002324252318232223191c1b010101010629182a2321222329182a23191a00000000011213060401060101010101040a01011f201e011213041f201e010101000000000406050101050101060501010f110e0101040105010101010101050104000000000501010105010401010101081110110b01010101010501040101010101000000000128042b010128012b0101010c110d0128012b01052801012b0101282b00000000061f201e04011f201e060104010906011f201e01061f20201e01041f1e0000000000000000000000000000000101010101000000000000000000000000000000000000000000000000000000000105010401000000000000000000000000000000000000000000000000000000000207020207000000000000000000000000000000000000000000000000000000000702030302000000000000000000000000000000000000000000000000000000000018181800000000000000000000000000000000`, img`
 222222222222222222222222222222222
 222222222222222222222222222222222
 222222222222222222222222222222222
@@ -457,7 +509,42 @@ namespace myTiles {
 2222222222222.....222222222222222
 2222222222222.....222222222222222
 222222222222222222222222222222222
-`, [myTiles.transparency16,myTiles.tile14,myTiles.tile79,myTiles.tile82,myTiles.tile83,myTiles.tile84,myTiles.tile85,myTiles.tile86,myTiles.tile90,myTiles.tile87,myTiles.tile88,myTiles.tile91,myTiles.tile92,myTiles.tile93,myTiles.tile94,myTiles.tile95,myTiles.tile96,myTiles.tile97,myTiles.tile98,myTiles.tile99,myTiles.tile100,myTiles.tile101,myTiles.tile102,myTiles.tile103,myTiles.tile104,myTiles.tile105,myTiles.tile49,myTiles.tile50,myTiles.tile106,myTiles.tile107,myTiles.tile108,myTiles.tile113,myTiles.tile110,myTiles.tile109,myTiles.tile111,myTiles.tile112,myTiles.tile115,myTiles.tile116,myTiles.tile118,myTiles.tile119,myTiles.tile120,myTiles.tile121,myTiles.tile125,myTiles.tile126,myTiles.tile127,myTiles.tile128], TileScale.Sixteen);
+`, [myTiles.transparency16,myTiles.tile14,myTiles.tile79,myTiles.tile82,myTiles.tile83,myTiles.tile84,myTiles.tile85,myTiles.tile86,myTiles.tile90,myTiles.tile87,myTiles.tile88,myTiles.tile91,myTiles.tile92,myTiles.tile93,myTiles.tile94,myTiles.tile95,myTiles.tile96,myTiles.tile97,myTiles.tile100,myTiles.tile101,myTiles.tile102,myTiles.tile103,myTiles.tile104,myTiles.tile105,myTiles.tile49,myTiles.tile50,myTiles.tile106,myTiles.tile107,myTiles.tile108,myTiles.tile113,myTiles.tile110,myTiles.tile109,myTiles.tile111,myTiles.tile112,myTiles.tile115,myTiles.tile116,myTiles.tile118,myTiles.tile119,myTiles.tile120,myTiles.tile121,myTiles.tile125,myTiles.tile126,myTiles.tile127,myTiles.tile128], TileScale.Sixteen);
+            case "lunch":
+            case "レベル12":return tiles.createTilemap(hex`0f000b000709090806062c262d0606070909080d06060e13062b262a06130d06060e0b0a0a0c050527282905050b0a0a0c0f01141414141414141414141401100f01140123012314230123141401100f011c191f1f1f1f1f1f1f1a1e01100f011b2122222222222222201d01100f01141524182418241724161401100f0114142514251425142514140110020404040404040404040404040403000011120000000000000000000000`, img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 . . 2 2 2 . . 2 2 2 2 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+2 2 . . 2 2 2 2 2 2 2 2 2 2 2 
+`, [myTiles.transparency16,myTiles.tile97,myTiles.tile100,myTiles.tile101,myTiles.tile102,myTiles.tile103,myTiles.tile49,myTiles.tile50,myTiles.tile107,myTiles.tile108,myTiles.tile111,myTiles.tile109,myTiles.tile110,myTiles.tile126,myTiles.tile127,myTiles.tile132,myTiles.tile133,myTiles.tile14,myTiles.tile84,myTiles.tile116,myTiles.tile131,myTiles.tile134,myTiles.tile135,myTiles.tile136,myTiles.tile137,myTiles.tile139,myTiles.tile140,myTiles.tile141,myTiles.tile142,myTiles.tile143,myTiles.tile144,myTiles.tile145,myTiles.tile146,myTiles.tile147,myTiles.tile149,myTiles.tile150,myTiles.tile151,myTiles.tile152,myTiles.tile154,myTiles.tile155,myTiles.tile157,myTiles.tile158,myTiles.tile159,myTiles.tile160,myTiles.tile162,myTiles.tile163], TileScale.Sixteen);
+            case "entryway":
+            case "レベル8":return tiles.createTilemap(hex`2100120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000181818181800000000000000000000000000000000000000000000000000000000231818182300000000000000000000000000000000000000000000000000000000051715160500000000000000000000000000000000000000000000000000000000011213140100000000000000000000000000000000000000000000000000000000010106010500000000000000000000000000000000001828291818182118181818050104010118181818212118181818181818000000002326272318232523191c1b01010101062b182c232022232b182c23191a00000000011214060401240101010101040901011d1f1e011214041d1f1e010101000000000406050101050101060501010f110e01010401050101010101010501040000000005010101050104010101010a1110110b0101010101050104010101010100000000012a042d01012a012d0101010c110d012a012d01052a01012d01012a2d00000000061d1f1e04011d1f1e060104010806011d1f1e01061d1f1f1e01041d1e0000000000000000000000000000000101010101000000000000000000000000000000000000000000000000000000000105010401000000000000000000000000000000000000000000000000000000000207020207000000000000000000000000000000000000000000000000000000000702030302000000000000000000000000000000000000000000000000000000000018181800000000000000000000000000000000`, img`
+222222222222222222222222222222222
+222222222222222222222222222222222
+222222222222222222222222222222222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+22......2.........222....222...22
+22.............................22
+22.............................22
+22.............................22
+22.222..222.......222..2222..2222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+2222222222222.....222222222222222
+222222222222222222222222222222222
+`, [myTiles.transparency16,myTiles.tile14,myTiles.tile79,myTiles.tile82,myTiles.tile83,myTiles.tile84,myTiles.tile85,myTiles.tile86,myTiles.tile87,myTiles.tile88,myTiles.tile89,myTiles.tile91,myTiles.tile92,myTiles.tile93,myTiles.tile94,myTiles.tile95,myTiles.tile96,myTiles.tile97,myTiles.tile100,myTiles.tile102,myTiles.tile101,myTiles.tile103,myTiles.tile104,myTiles.tile105,myTiles.tile49,myTiles.tile50,myTiles.tile106,myTiles.tile107,myTiles.tile108,myTiles.tile109,myTiles.tile110,myTiles.tile111,myTiles.tile112,myTiles.tile113,myTiles.tile115,myTiles.tile116,myTiles.tile114,myTiles.tile117,myTiles.tile118,myTiles.tile119,myTiles.tile120,myTiles.tile121,myTiles.tile125,myTiles.tile126,myTiles.tile127,myTiles.tile128], TileScale.Sixteen);
         }
         return null;
     })
@@ -603,10 +690,6 @@ namespace myTiles {
             case "tile96":return tile96;
             case "myTile95":
             case "tile97":return tile97;
-            case "myTile96":
-            case "tile98":return tile98;
-            case "myTile97":
-            case "tile99":return tile99;
             case "myTile98":
             case "tile100":return tile100;
             case "myTile99":
@@ -683,8 +766,6 @@ namespace myTiles {
             case "tile28":return tile28;
             case "myTile21":
             case "tile23":return tile23;
-            case "myTile109":
-            case "tile111":return tile111;
             case "myTile110":
             case "tile112":return tile112;
             case "myTile113":
@@ -709,10 +790,6 @@ namespace myTiles {
             case "tile124":return tile124;
             case "myTile114":
             case "tile116":return tile116;
-            case "myTile107":
-            case "tile109":return tile109;
-            case "myTile108":
-            case "tile110":return tile110;
             case "myTile123":
             case "tile125":return tile125;
             case "myTile124":
@@ -725,6 +802,70 @@ namespace myTiles {
             case "tile129":return tile129;
             case "myTile128":
             case "tile130":return tile130;
+            case "myTile129":
+            case "tile131":return tile131;
+            case "myTile130":
+            case "tile132":return tile132;
+            case "myTile131":
+            case "tile133":return tile133;
+            case "myTile108":
+            case "tile110":return tile110;
+            case "myTile107":
+            case "tile109":return tile109;
+            case "myTile109":
+            case "tile111":return tile111;
+            case "myTile132":
+            case "tile134":return tile134;
+            case "myTile133":
+            case "tile135":return tile135;
+            case "myTile134":
+            case "tile136":return tile136;
+            case "myTile135":
+            case "tile137":return tile137;
+            case "myTile136":
+            case "tile138":return tile138;
+            case "myTile137":
+            case "tile139":return tile139;
+            case "myTile138":
+            case "tile140":return tile140;
+            case "myTile139":
+            case "tile141":return tile141;
+            case "myTile140":
+            case "tile142":return tile142;
+            case "myTile141":
+            case "tile143":return tile143;
+            case "myTile142":
+            case "tile144":return tile144;
+            case "myTile143":
+            case "tile145":return tile145;
+            case "myTile144":
+            case "tile146":return tile146;
+            case "myTile145":
+            case "tile147":return tile147;
+            case "myTile147":
+            case "tile149":return tile149;
+            case "myTile148":
+            case "tile150":return tile150;
+            case "myTile149":
+            case "tile151":return tile151;
+            case "myTile150":
+            case "tile152":return tile152;
+            case "myTile153":
+            case "tile155":return tile155;
+            case "myTile155":
+            case "tile157":return tile157;
+            case "myTile156":
+            case "tile158":return tile158;
+            case "myTile157":
+            case "tile159":return tile159;
+            case "myTile160":
+            case "tile162":return tile162;
+            case "myTile161":
+            case "tile163":return tile163;
+            case "myTile162":
+            case "tile164":return tile164;
+            case "myTile158":
+            case "tile160":return tile160;
         }
         return null;
     })
