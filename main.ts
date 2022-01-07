@@ -181,12 +181,12 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile36`, function (sprite, location) {
     if (controller.A.isPressed()) {
         tiles.setTilemap(tilemap`aisle`)
-        mySprite.setPosition(140, 250)
+        mySprite.setPosition(130, 290)
     }
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile61`, function (sprite, location) {
     tiles.setTilemap(tilemap`entryway`)
-    mySprite.setPosition(325, 250)
+    mySprite.setPosition(250, 260)
 })
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
